@@ -90,7 +90,7 @@ function App() {
                                         />
                                     </div>
                                 </div>
-                                <span className="text-gray-700">
+                                <span className="text-gray-400">
                                     {typingDisplay && typingDisplay}
                                 </span>
 

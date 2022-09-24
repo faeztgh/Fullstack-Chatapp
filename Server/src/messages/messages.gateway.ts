@@ -31,7 +31,6 @@ export class MessagesGateway {
     );
 
     this.server.emit('message', message);
-    console.log(message);
     return message;
   }
 
@@ -55,7 +54,7 @@ export class MessagesGateway {
     @ConnectedSocket() client: Socket,
   ) {
     const name = await this.messagesService.getClientName(client.id);
-    console.log(`${name} is typing...`);
+
     client.broadcast.emit('typing', { name, isTyping });
   }
 }
