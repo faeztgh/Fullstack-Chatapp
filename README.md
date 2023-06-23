@@ -69,7 +69,7 @@ Yarn or NPM
 
 MIT License
 
-Copyright (c) 2023 Code Phase
+Copyright (c) 2023 Faeztgh
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
